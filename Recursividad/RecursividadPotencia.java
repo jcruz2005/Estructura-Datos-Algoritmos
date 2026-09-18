@@ -5,6 +5,7 @@ import java.util.Scanner;
  * Realiza la potenciación de dos números enteros de forma recursiva
  * sin utilizar el operador * ni Math.pow().
  * Utiliza multiplicación por sumas con algoritmo de exponenciación rápida.
+ * @author SANCHEZ SOLANO, Juan Cruz
  */
 public class RecursividadPotencia {
 

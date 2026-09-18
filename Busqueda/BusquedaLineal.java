@@ -20,7 +20,7 @@ import java.util.Scanner;
  *   <li>Espacio: O(1) — no usa memoria adicional</li>
  * </ul>
  *
- * @author GitHub Copilot
+ * @author SANCHEZ SOLANO, Juan Cruz
  * @version 1.0
  */
 public class BusquedaLineal {

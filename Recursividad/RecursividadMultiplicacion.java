@@ -5,6 +5,7 @@ import java.util.Scanner;
  * Realiza la multiplicación de dos números enteros de forma recursiva
  * sin utilizar el operador *.
  * Utiliza sumas repetidas: a × b = a + a + ... + a (b veces)
+ * @author SANCHEZ SOLANO, Juan Cruz
  */
 public class RecursividadMultiplicacion {
 

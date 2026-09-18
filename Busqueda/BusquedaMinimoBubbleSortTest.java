@@ -10,7 +10,7 @@ import java.util.Arrays;
  * <p>Se ejecuta con assertions de Java (-ea). Si alguna falla,
  * el programa lanza AssertionError con un mensaje descriptivo.</p>
  * 
- * @author GitHub Copilot
+ * @author SANCHEZ SOLANO, Juan Cruz
  * @version 1.0
  */
 public class BusquedaMinimoBubbleSortTest {

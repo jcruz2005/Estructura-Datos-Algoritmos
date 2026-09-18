@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Calcula el factorial de un número entero positivo usando recursividad.
  * Utiliza BigInteger para soportar números arbitrariamente grandes.
+ * @author SANCHEZ SOLANO, Juan Cruz
  */
 public class RecursividadFactorial {
 

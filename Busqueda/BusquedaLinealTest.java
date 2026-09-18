@@ -10,7 +10,7 @@ import java.util.Random;
  *   <li><b>Caso promedio:</b> Elemento en una posición intermedia → O(n/2)</li>
  * </ul>
  *
- * @author GitHub Copilot
+ * @author SANCHEZ SOLANO, Juan Cruz
  * @version 1.0
  */
 public class BusquedaLinealTest {

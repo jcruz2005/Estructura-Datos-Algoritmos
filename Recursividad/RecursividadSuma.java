@@ -4,6 +4,7 @@ import java.util.Scanner;
  * Calcula la suma descendente de un número hasta 1 usando recursividad.
  * Fórmula: n + (n-1) + (n-2) + ... + 1
  * Utiliza long para soportar números hasta ~4 mil millones.
+ * @author SANCHEZ SOLANO, Juan Cruz
  */
 public class RecursividadSuma {
 

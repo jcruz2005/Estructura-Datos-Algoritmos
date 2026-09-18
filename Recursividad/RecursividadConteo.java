@@ -6,6 +6,7 @@ import java.util.Scanner;
  * No retorna ningún valor, solo imprime los números por pantalla.
  * Caso base: n < 0 → se detiene sin hacer nada (return).
  * Caso recursivo: imprimir n y llamar a countdown(n-1).
+ * @author SANCHEZ SOLANO, Juan Cruz
  */
 public class RecursividadConteo {
 

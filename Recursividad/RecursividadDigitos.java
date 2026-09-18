@@ -7,6 +7,7 @@ import java.util.Scanner;
  * Caso recursivo: 1 + digitos(n / 10) — se elimina el último dígito y se suma 1.
  *
  * Ejemplo: digitos(1234) → 1 + digitos(123) → 1 + 1 + digitos(12) → ... → 4
+ * @author SANCHEZ SOLANO, Juan Cruz
  */
 public class RecursividadDigitos {
 

@@ -3,7 +3,7 @@ import java.util.Random;
 /**
  * Cuenta cuántas veces aparece un valor específico en un vector.
  *
- * <p><b>Análisis de búsqueda para contar ocurrencias:</b></p>
+ * <p><b>Análisis de búsqueda para contar ocurrencias:Buen</b></p>
  * <ul>
  *   <li><b>Búsqueda Lineal:</b> Recorre TODO el vector → O(n). Es la única
  *       opción viable para vectores desordenados.</li>
@@ -24,7 +24,7 @@ import java.util.Random;
  *   <li>Espacio: O(1) — solo usa un contador adicional</li>
  * </ul>
  *
- * @author GitHub Copilot
+ * @author SANCHEZ SOLANO, Juan Cruz
  * @version 1.0
  */
 public class ContarOcurrencias {

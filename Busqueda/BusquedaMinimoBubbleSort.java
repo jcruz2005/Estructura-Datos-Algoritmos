@@ -13,7 +13,7 @@ import java.util.Random;
  * para vectores grandes. Para simplemente encontrar el mínimo, existen
  * algoritmos mucho más eficientes con complejidad O(n).</p>
  * 
- * @author GitHub Copilot
+ * @author SANCHEZ SOLANO, Juan Cruz
  * @version 1.0
  */
 public class BusquedaMinimoBubbleSort {
