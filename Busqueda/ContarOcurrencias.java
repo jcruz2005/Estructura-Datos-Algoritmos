@@ -92,5 +92,33 @@ public class ContarOcurrencias {
                            " aparece " + String.format("%-2d", ocurrencias) +
                            " vez/veces en el vector.     ║");
         System.out.println("╚══════════════════════════════════════════════════╝");
+
+        // =================================================================
+        // ANÁLISIS DE COMPLEJIDAD
+        // =================================================================
+        System.out.println();
+        System.out.println("╔════════════════════════════════════════════════════════════╗");
+        System.out.println("║            ANÁLISIS DE COMPLEJIDAD                        ║");
+        System.out.println("╠════════════════════════════════════════════════════════════╣");
+        System.out.println("║  Caso          │ Comparaciones │ Complejidad │ Justificación ║");
+        System.out.println("╠════════════════════════════════════════════════════════════╣");
+        System.out.println("║  Mejor caso    │      n        │    O(n)     │ Debe recorrer  ║");
+        System.out.println("║  Peor caso     │      n        │    O(n)     │ todo para      ║");
+        System.out.println("║  Promedio      │      n        │    O(n)     │ contar TODAS   ║");
+        System.out.println("╠════════════════════════════════════════════════════════════╣");
+        System.out.println("║  ESPACIO: O(1) — solo un contador adicional               ║");
+        System.out.println("╠════════════════════════════════════════════════════════════╣");
+        System.out.println("║  ¿POR QUÉ SIEMPRE O(n)?                                  ║");
+        System.out.println("║  Para contar ocurrencias, el algoritmo DEBE revisar       ║");
+        System.out.println("║  cada posición del vector. No se puede determinar la      ║");
+        System.out.println("║  cantidad total sin recorrerlo completo. Aunque el valor  ║");
+        System.out.println("║  aparezca solo 1 vez o en todas las posiciones, siempre   ║");
+        System.out.println("║  serán n comparaciones.                                   ║");
+        System.out.println("╠════════════════════════════════════════════════════════════╣");
+        System.out.println("║  ¿POR QUÉ NO BÚSQUEDA BINARIA?                           ║");
+        System.out.println("║  1) Requiere vector ordenado → costo O(n log n) extra     ║");
+        System.out.println("║  2) Solo encuentra UNA ocurrencia → lógica adicional      ║");
+        System.out.println("║  3) Total: O(n log n) + O(log n + k) → peor que O(n)     ║");
+        System.out.println("╚════════════════════════════════════════════════════════════╝");
     }
 }
